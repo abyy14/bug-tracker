@@ -9,7 +9,7 @@
     "typeorm": "ts-node ./node_modules/typeorm/cli.js",
     "lint": "eslint --ext .ts ."
   },
-  "author": "Amandeep S",
+  "author": "Abi",
   "license": "ISC",
   "devDependencies": {
     "@types/bcrypt": "^3.0.0",
