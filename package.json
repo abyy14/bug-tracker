@@ -1,0 +1,22 @@
+{
+  "name": "bug-tracker-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd ../server && npm install --dev",
+    "build": "cd ../server && npm run build",
+    "start": "cd server/dist && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abyy14/bug-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abyy14/bug-tracker/issues"
+  },
+  "homepage": "https://github.com/abyy14/bug-tracker#readme"
+}
