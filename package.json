@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "cd server && npm install --dev",
-    "build": "cd server && npm run build",
-    "start": "cd server/dist && node index.js"
+    "install": "cd client && npm install --dev && cd server && npm install --dev",
+    "build": "cd client && npm run build && cd server && npm run build",
+    "start": "cd server && node ./build/server.js"
   },
   "repository": {
     "type": "git",
