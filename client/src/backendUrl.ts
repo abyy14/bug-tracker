@@ -1,3 +1,3 @@
-const backendUrl = 'http://localhost:3005';
+const backendUrl = 'https://thawing-plateau-63074.herokuapp.com/';
 
 export default backendUrl;
