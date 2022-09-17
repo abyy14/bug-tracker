@@ -64,7 +64,7 @@ const NavBar = () => {
                 target="_blank"
                 rel="noopener"
               >
-                <strong>abi</strong>
+                <strong>abiiiii</strong>
               </Link>
             </Typography>
           )}
