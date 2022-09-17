@@ -17,7 +17,7 @@ module.exports = {
   ],
   migrations: [
     process.env.NODE_ENV === 'test'
-      ? 'src/migration/**/*.ts'
+      ? 'src/migration/1610529720088-create-schema.ts'
       : 'build/migration/**/*.js',
   ],
   cli: {

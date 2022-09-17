@@ -1,6 +1,5 @@
 import axios from 'axios';
 import backendUrl from '../backendUrl';
-
 interface Credentials {
   username: string;
   password: string;
