@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "cd ../server && npm install --dev",
-    "build": "cd ../server && npm run build",
+    "install": "cd server && npm install --dev",
+    "build": "cd server && npm run build",
     "start": "cd server/dist && node index.js"
   },
   "repository": {
